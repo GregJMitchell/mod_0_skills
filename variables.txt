@@ -1,0 +1,9 @@
+food = 'fries'
+is_delicious = true
+food = 'burger'
+num2 = 4
+num7 = 8
+quotient = num7 - num2
+songs = ['']
+songs.drop(1)
+food.length

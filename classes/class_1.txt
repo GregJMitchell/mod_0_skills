@@ -1,0 +1,18 @@
+class Table
+
+attributes:
+names_of_people_seated ([string])
+is_food_served (boolean)
+cost_of_dish (float)
+check_total (float)
+number_of_customers_seated (integer)
+
+Methods:
+seat_customers (add new customers to the number_of_customers_seated and add their
+names to names_of_people_seated)
+
+ring_up (add up all cost_of_dish values and create a check_total)
+
+serve_food (changes the value of is_food_served to be true)
+
+empty_table (sets the number_of_customers_seated to be 0)

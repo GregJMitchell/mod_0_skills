@@ -1,18 +1,18 @@
 class Table
 
 attributes:
-names_of_people_seated ([string])
+people_seated (array)
 is_food_served (boolean)
-cost_per_customer (float)
-check_total (float)
-number_of_customers_seated (integer)
+total (float)
+is_clean (boolean)
 
 Methods:
-seat_customers (add new customers to the number_of_customers_seated and add their
-names to names_of_people_seated)
+seat_customers (checks is_clean before seating customers. If false, runs clean method then adds new customers to the people_seated array)
 
-ring_up (add up all cost_per_customer values and create a check_total)
+increment_total (when a person orders the total gets incremented. Take in total of a dish and adds it to total)
 
 serve_food (changes the value of is_food_served to be true)
 
-empty_table (sets the number_of_customers_seated to be 0)
+count_of_people (does people_seated.length)
+
+clean (sets is_clean to true)

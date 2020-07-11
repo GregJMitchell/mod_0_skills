@@ -1,17 +1,13 @@
-Food: Quesodilla
+Food Quesadilla
 
 attributes:
-name_of_items: ['Quesodilla']
-cost_of_item: 8.99
-is_gluten_free: false
-number_of_calories: 800
+is_spicy = false
+price = 5.00
+is_gluten_free = false
+number_of_calories = 680
 
 methods:
-order_item: (name_of_items becomes ['Quesodilla', 'guac', 'taco'])
-
-total_calories = number_of_calories ('taco') + number_of_calories('guac') +
-number_of_calories('Quesodilla')
-
-substitute_gluten: is_gluten_free = true
-
-total_cost = cost_of_item('taco') + cost_of_item('guac') + cost_of_item ('Quesodilla')
+substitute_gluten = true
+total_calories = 720
+add_hot_sauce: is_spicy = true
+discount(20, 5): price = 4.00

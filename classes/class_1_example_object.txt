@@ -1,14 +1,14 @@
 table 1
 
 attributes
-names_of_people_seated = ['Sally', 'Bob', 'Jim']
+people_seated = ['Sally', 'Bob', 'Jim']
 is_food_served = false
-cost_per_customer = 10.66
-check_total = 0
-number_of_customers_seated = 3
+total = 0.0
+is_clean = true
 
 Methods
-seat_customer ['Sally', 'Bob', 'Jim', 'Bill']
-ring_up: check_total = 31.98
+seat_customer true, ['Sally', 'Bob', 'Jim', 'Bill']
+increment_total = 4.99. Total is now 4.99
 serve_food: is_food_served = true
-empty_table: number_of_customers_seated = 0 and names_of_people_seated = []
+count_of_people = 4
+clean true

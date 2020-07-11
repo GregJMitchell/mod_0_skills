@@ -1,13 +1,13 @@
 class Food
 
 attributes:
-name_of_items ([string])
-cost_of_item (float)
+is_spicy (boolean)
+price (float)
 is_gluten_free (boolean)
 number_of_calories (integer)
 
 methods:
-total_calories (adds up calories off all items consumed)
-total_cost (add up all cost_of_item to get check cost of all foods)
 substitute_gluten (changes is_gluten_free to be true)
-order_item (adds items to the name_of_items array)
+total_calories (checks substitute_gluten. If true, updates total_calories. Otherwise keeps number_of_calories)
+add_hot_sauce (sets is spicy to true)
+discount(percent of discount and price) (reduces price)
